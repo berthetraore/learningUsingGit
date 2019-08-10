@@ -38,3 +38,13 @@ Ca vous donne l'historique de vos commits, comme la commande git log, mais dans 
 
 
 CHAPITRE 6 :Récupérez des modifications
+
+Dans le chapitre précédent, vous avez vu comment envoyer vos modifications locales vers votre repo GitHub avec git push. Mais si vous modifiez votre repo GitHub en ligne, ou si vous travaillez avec d'autres personnes dessus et qu'elles envoient leurs modifications locales sur le repo en ligne, votre code local ne sera plus à jour.
+
+Pour récupérer en local les dernières modifications du repo GitHub, il vous faut utiliser la commande git pull : 
+git pull origin master
+
+Vous reconnaissez la même syntaxe que pour la commande git push, qui demande ici à GitHub : 
+
+Envoie dans mon répertoire local les dernières modifications de la branche master située sur mon remote origin (qui correspond ici à GitHub). 
+Pensez à synchroniser régulièrement votre code local avec vos repos en ligne à l'aide des commandes git push et pull. C'est particulièrement important lorsque vous travaillez à plusieurs sur un projet, pour que tout le monde avance sur la même base !
